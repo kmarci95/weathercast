@@ -1,0 +1,75 @@
+body{
+    background: -webkit-linear-gradient(midnightblue, deepskyblue) no-repeat fixed;
+    height: 100%;
+    margin: 0;
+}
+
+.text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    text-align: center;
+    font-size: 250%;
+}
+
+#weather_cast, #icon_main{
+    display: inline-block;
+}
+
+.main_in{
+    margin-top: 20px;
+}
+.search{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#button{
+    border: none;
+    color: dodgerblue;
+    background: white;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+}
+#button:hover {
+    background-color: dodgerblue; /* Green */
+    color: white;
+}
+
+#input{
+    border: none;
+    font-size: 22px;
+    background-color: white;
+}
+#input, #button{
+    vertical-align: middle;
+    outline: none;
+}
+
+.weather_data{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.city{
+    font-size: 30px;
+}
+
+.temperature{
+    font-size: 28px;
+}
+
+.meta{
+    font-size: 25px;
+}
+
+.city, .temperature, .meta{
+    margin: 5px;
+}
+
+#input:focus {
+    background-color: white;
+}
